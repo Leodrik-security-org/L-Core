@@ -1,18 +1,24 @@
-# L-Core
-LEODRIK - Autonomous Enterprise Guardian &amp; Intelligence System
-# L-Core
+# Overwrite the README with the correct AEGIS Python scanner version
+cat > README.md << 'EOF'
+# 🛡️ AEGIS - Autonomous Security Scanner
 
-## Project Vision
-L-Core is committed to delivering a solid foundation for building secure applications. Our vision is to empower developers with tools and features that streamline security implementations, ensuring robust defenses in a rapidly evolving digital landscape.
+**Python-based security scanner for open ports and vulnerabilities**
 
-## Features
-- **Robust Security**: In-built security features that adhere to industry best practices.
-- **Easy Installation**: Quick and seamless setup process for quick integration into existing projects.
-- **Comprehensive Documentation**: Detailed documentation and examples for developers of all skill levels.
-- **User-Friendly Interface**: Intuitive interfaces for ease of use without sacrificing functionality.
-- **Active Community**: Join a growing community for support and contributions.
+[![License: AGPLv3](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![GitHub stars](https://img.shields.io/github/stars/Leodrik-security-org/L-Core)](https://github.com/Leodrik-security-org/L-Core/stargazers)
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Leodrik-security-org/L-Core.git
+---
+
+## 🚀 Quick Start (30 seconds)
+
+```bash
+# Clone the repository
+git clone https://github.com/Leodrik-security-org/L-Core.git
+cd L-Core
+
+# Run your first security scan
+python3 -m src.aegis.core.engine
+
+# See demo mode (simulates findings)
+python3 -m src.aegis.core.engine --test
