@@ -47,7 +47,7 @@ AEGIS is a **paid commercial software product**. All use requires an active subs
 ## 📞 CONTACT SALES
 
 **Email:** sales@aegis-security.org  
-**Phone:** [Your phone number]  
+**Phone:** 771-203-0852  
 **Demo:** https://aegis-security.org/demo
 
 **Enterprise and MSSP inquiries receive response within 4 hours.**
