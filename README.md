@@ -125,7 +125,7 @@ We welcome contributions! Here's how to help:
 See CONTRIBUTING.md for details.
 
 📄 License
-GNU AGPLv3 - Free forever, open forever
+GNU AGPLv3 - premium prices, open forever
 
 This means:
 
