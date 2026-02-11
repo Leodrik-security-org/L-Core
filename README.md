@@ -22,3 +22,41 @@ python3 -m src.aegis.core.engine
 
 # See demo mode (simulates findings)
 python3 -m src.aegis.core.engine --test
+🔍 What AEGIS Scans
+Port	Service	Severity	Risk
+21	FTP	MEDIUM	Anonymous login, clear text
+22	SSH	MEDIUM	Weak credentials, brute force
+23	Telnet	🔴 CRITICAL	Completely insecure, use SSH
+25	SMTP	MEDIUM	Open relay, spam relay
+80	HTTP	LOW	Missing HTTPS, mixed content
+443	HTTPS	LOW	SSL/TLS misconfigurations
+8080	HTTP-Alt	LOW	Development servers exposed
+3389	RDP	🟠 HIGH	Remote Desktop exposed
+5900	VNC	🟠 HIGH	No authentication, clear text
+27017	MongoDB	🟠 HIGH	No authentication by default
+📊 Example Output
+text
+============================================================
+  🛡️  AEGIS Security Scanner v0.1.0
+  Autonomous Enterprise Guardian & Intelligence System
+============================================================
+
+🔍 Scanning target: 127.0.0.1
+🎮 TEST MODE - Simulating findings for demonstration
+
+⚠️  Found 3 open ports:
+   • Port 80: HTTP - LOW
+   • Port 443: HTTPS - LOW  
+   • Port 8080: HTTP-Alt - LOW
+
+💾 Saving results to database...
+📊 Generating report...
+
+✅ Scan complete!
+   📄 Report: aegis_report.json
+   💾 Database: aegis.db
+
+🔧 Recommendations:
+   ℹ️  Web server exposed. Ensure HTTPS and proper security headers.
+
+============================================================
